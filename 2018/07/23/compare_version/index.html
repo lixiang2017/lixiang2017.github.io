@@ -79,13 +79,17 @@
 
 
 
-<meta property="og:type" content="website">
+<meta name="description" content="比较任意两个软件版本号大小请用您熟悉的编程语言，编程实现一个比较任意两个软件版本号大小的函数，如 1.2.3a 和 1.2.4b比较，后者版本号更大，请考虑各种情况，不可以使用系统提供的比较函数。 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455">
+<meta property="og:type" content="article">
 <meta property="og:title" content="lixiang">
-<meta property="og:url" content="http://xianglee.top/index.html">
+<meta property="og:url" content="http://xianglee.top/2018/07/23/compare_version/index.html">
 <meta property="og:site_name" content="lixiang">
+<meta property="og:description" content="比较任意两个软件版本号大小请用您熟悉的编程语言，编程实现一个比较任意两个软件版本号大小的函数，如 1.2.3a 和 1.2.4b比较，后者版本号更大，请考虑各种情况，不可以使用系统提供的比较函数。 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-07-22T16:32:50.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="lixiang">
+<meta name="twitter:description" content="比较任意两个软件版本号大小请用您熟悉的编程语言，编程实现一个比较任意两个软件版本号大小的函数，如 1.2.3a 和 1.2.4b比较，后者版本号更大，请考虑各种情况，不可以使用系统提供的比较函数。 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455">
 
 
 
@@ -115,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://xianglee.top/"/>
+  <link rel="canonical" href="http://xianglee.top/2018/07/23/compare_version/"/>
 
 
 
 
 
-  <title>lixiang</title>
+  <title> | lixiang</title>
   
 
 
@@ -140,8 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,9 +217,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -246,9 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/23/compare_version/" itemprop="url">Untitled</a></h1>
+          <h1 class="post-title" itemprop="name headline"></h1>
         
 
         <div class="post-meta">
@@ -298,12 +299,8 @@
       
 
       
-        
-          
-            <h1 id="比较任意两个软件版本号大小"><a href="#比较任意两个软件版本号大小" class="headerlink" title="比较任意两个软件版本号大小"></a>比较任意两个软件版本号大小</h1><pre><code>请用您熟悉的编程语言，编程实现一个比较任意两个软件版本号大小的函数，如 1.2.3a 和 1.2.4b比较，后者版本号更大，请考虑各种情况，不可以使用系统提供的比较函数。
+        <h1 id="比较任意两个软件版本号大小"><a href="#比较任意两个软件版本号大小" class="headerlink" title="比较任意两个软件版本号大小"></a>比较任意两个软件版本号大小</h1><pre><code>请用您熟悉的编程语言，编程实现一个比较任意两个软件版本号大小的函数，如 1.2.3a 和 1.2.4b比较，后者版本号更大，请考虑各种情况，不可以使用系统提供的比较函数。
 </code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#! /usr/bin/python</span></span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line"><span class="comment"># a : 110a</span></span><br><span class="line"><span class="comment"># b : 120c</span></span><br><span class="line"><span class="comment"># great than : 1; equal : 0; less than : -1</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">split_compare</span><span class="params">(a, b)</span>:</span></span><br><span class="line">    l1 = len(a)</span><br><span class="line">    l2 = len(b)</span><br><span class="line">    a_former = <span class="string">''</span> </span><br><span class="line">    a_latter = <span class="string">''</span></span><br><span class="line">    b_former = <span class="string">''</span></span><br><span class="line">    b_latter = <span class="string">''</span></span><br><span class="line">    a_exist_alpha = <span class="number">0</span></span><br><span class="line">    b_exist_alpha = <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(l1):</span><br><span class="line">        <span class="keyword">if</span> a[i].isalpha():</span><br><span class="line">            a_exist_alpha = <span class="number">1</span></span><br><span class="line">            a_former = a[:i]</span><br><span class="line">            a_latter = a[i:]</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> a_exist_alpha:</span><br><span class="line">        a_former = a</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> range(l2):</span><br><span class="line">        <span class="keyword">if</span> b[j].isalpha():</span><br><span class="line">            b_exist_alpha = <span class="number">1</span></span><br><span class="line">            b_former = b[:j]</span><br><span class="line">            b_latter = b[j:]</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> b_exist_alpha:</span><br><span class="line">        b_former = b</span><br><span class="line">    </span><br><span class="line"><span class="comment">#    print type(a_former), type(a_latter), type(b_former), type(b_latter)</span></span><br><span class="line"><span class="comment">#    print repr(a_former)</span></span><br><span class="line"><span class="comment">#    print a_former, a_latter, b_former, b_latter		</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#    a_former = int(''.join([str(t) for t in a_former]))</span></span><br><span class="line"><span class="comment">#    b_former = int(''.join([str(t) for t in b_former]))</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> int(a_former) &gt; int(b_former):</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">elif</span> int(a_former) &lt; int(b_former):</span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span></span><br><span class="line">    <span class="keyword">elif</span> str(a_latter) &gt; str(b_latter):</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">elif</span> str(a_latter) &lt; str(b_latter):</span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">version_compare</span><span class="params">(v1, v2)</span>:</span></span><br><span class="line">    d1=re.split(<span class="string">'\.'</span>, v1)</span><br><span class="line">    d2=re.split(<span class="string">'\.'</span>,v2)</span><br><span class="line"></span><br><span class="line"><span class="comment">#    d1=[int(d1[i]) for i in range(len(d1))]</span></span><br><span class="line"><span class="comment">#    d2=[int(d2[i]) for i in range(len(d2))]</span></span><br><span class="line"></span><br><span class="line">    l = <span class="number">0</span></span><br><span class="line">    <span class="keyword">if</span> len(d1) &gt; len(d2):</span><br><span class="line">        l = len(d1)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        l = len(d2)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(l):</span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="keyword">if</span> len(d1[i]) &gt; <span class="number">0</span> <span class="keyword">and</span> len(d2[i]) &gt; <span class="number">0</span>:</span><br><span class="line">                <span class="keyword">if</span> <span class="number">1</span> == split_compare(d1[i], d2[i]):      </span><br><span class="line">                    <span class="keyword">return</span> <span class="string">'&gt;'</span></span><br><span class="line">                <span class="keyword">elif</span> <span class="number">0</span> == split_compare(d1[i], d2[i]):    </span><br><span class="line">                    <span class="keyword">continue</span></span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    <span class="keyword">return</span> <span class="string">'&lt;'</span></span><br><span class="line">        <span class="keyword">except</span> IndexError <span class="keyword">as</span> e:</span><br><span class="line">            <span class="keyword">if</span> len(d1) &gt; len(d2):</span><br><span class="line">                <span class="keyword">return</span> <span class="string">'&gt;'</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                <span class="keyword">return</span> <span class="string">'&lt;'</span></span><br><span class="line">    <span class="keyword">return</span> <span class="string">'='</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__==<span class="string">"__main__"</span>:</span><br><span class="line"><span class="comment">#    version1='2.6.9'</span></span><br><span class="line"><span class="comment">#    version2='12.0.9.2'</span></span><br><span class="line">    version1 = raw_input(<span class="string">"please input version1 :"</span>)</span><br><span class="line">    version2 = raw_input(<span class="string">"please input version2 :"</span>)</span><br><span class="line">    <span class="keyword">print</span> (version1, version_compare(version1, version2), version2)</span><br><span class="line"></span><br><span class="line"><span class="comment">#    a = raw_input("input a :")</span></span><br><span class="line"><span class="comment">#    b = raw_input("input b :")</span></span><br><span class="line"><span class="comment">#    print split_compare(a, b)</span></span><br></pre></td></tr></table></figure>
-          
-        
       
     </div>
     
@@ -320,131 +317,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://xianglee.top/2018/07/17/TEST/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="li xiang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="lixiang">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/17/TEST/" itemprop="url">TEST</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-07-17T09:43:35+08:00">
-                2018-07-17
-              </time>
+              <a href="/2018/07/17/TEST/" rel="next" title="TEST">
+                <i class="fa fa-chevron-left"></i> TEST
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -454,138 +348,11 @@
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://xianglee.top/2018/07/12/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="li xiang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="lixiang">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/12/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-07-12T10:18:09+08:00">
-                2018-07-12
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -593,6 +360,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -613,8 +384,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -656,6 +436,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#比较任意两个软件版本号大小"><span class="nav-number">1.</span> <span class="nav-text">比较任意两个软件版本号大小</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -789,6 +585,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
