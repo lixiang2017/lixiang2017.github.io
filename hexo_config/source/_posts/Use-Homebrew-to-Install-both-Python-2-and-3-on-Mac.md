@@ -1,5 +1,5 @@
 ---
-title: Use-Homebrew-to-Install-both-Python-2-and-3-on-Mac
+title: Use Homebrew to Install both Python 2 and 3 on Mac
 date: 2019-02-02 18:35:52
 categories:
 tags:
@@ -17,7 +17,7 @@ $ brew install python3
 ```
 上面的语句会自动安装 pip3
 网上文章上都说用brew安装Python3会自带pip3的安装 
-但是不知什么原因,我使用brew安装按成Python3后并没有pip3
+但是不知什么原因,我使用brew安装完Python3后并没有pip3
 
 # 安装pip3
 ## 下载文件
