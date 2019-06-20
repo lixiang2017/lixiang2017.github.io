@@ -6,6 +6,7 @@
     "version": "3.8.0"
   },
   "dependencies": {
+    "braces": "^2.3.1",
     "hexo": "^3.9.0",
     "hexo-deployer-git": "^1.0.0",
     "hexo-generator-archive": "^0.1.4",
@@ -19,5 +20,9 @@
     "hexo-server": "^0.2.0",
     "lodash": "^4.17.11",
     "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1"
   }
 }
