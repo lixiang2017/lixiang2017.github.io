@@ -6,7 +6,7 @@
 
 
 <html class="theme-next mist use-motion" lang>
-<head><meta name="generator" content="Hexo 3.8.0">
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="题目假设可以不考虑计算机运行资源（如内存、堆栈）的限制，以下Python3代码预期的输出结果是12345def rec(n):    if n &amp;lt; 2:        return 1    return rec(n // 2) + rec(n // 4)print(rec(12345678987654321)) print(rec(123456789))可以很容易跑出结果317811，但是">
+<meta name="description" content="题目假设可以不考虑计算机运行资源（如内存、堆栈）的限制，以下Python3代码预期的输出结果是 12345def rec(n):    if n &amp;lt; 2:        return 1    return rec(n // 2) + rec(n // 4)print(rec(12345678987654321))  print(rec(123456789))可以很容易跑出结果317811，">
 <meta property="og:type" content="article">
 <meta property="og:title" content="12345678987654320">
 <meta property="og:url" content="http://xianglee.top/12345678987654321/index.html">
 <meta property="og:site_name" content="lixiang">
-<meta property="og:description" content="题目假设可以不考虑计算机运行资源（如内存、堆栈）的限制，以下Python3代码预期的输出结果是12345def rec(n):    if n &amp;lt; 2:        return 1    return rec(n // 2) + rec(n // 4)print(rec(12345678987654321)) print(rec(123456789))可以很容易跑出结果317811，但是">
+<meta property="og:description" content="题目假设可以不考虑计算机运行资源（如内存、堆栈）的限制，以下Python3代码预期的输出结果是 12345def rec(n):    if n &amp;lt; 2:        return 1    return rec(n // 2) + rec(n // 4)print(rec(12345678987654321))  print(rec(123456789))可以很容易跑出结果317811，">
 <meta property="og:locale" content="default">
 <meta property="og:updated_time" content="2019-06-02T06:14:42.928Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="12345678987654320">
-<meta name="twitter:description" content="题目假设可以不考虑计算机运行资源（如内存、堆栈）的限制，以下Python3代码预期的输出结果是12345def rec(n):    if n &amp;lt; 2:        return 1    return rec(n // 2) + rec(n // 4)print(rec(12345678987654321)) print(rec(123456789))可以很容易跑出结果317811，但是">
+<meta name="twitter:description" content="题目假设可以不考虑计算机运行资源（如内存、堆栈）的限制，以下Python3代码预期的输出结果是 12345def rec(n):    if n &amp;lt; 2:        return 1    return rec(n // 2) + rec(n // 4)print(rec(12345678987654321))  print(rec(123456789))可以很容易跑出结果317811，">
 
 
 
@@ -340,13 +340,18 @@
       
 
       
-        <h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>假设可以不考虑计算机运行资源（如内存、堆栈）的限制，以下Python3代码预期的输出结果是<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">def rec(n):</span><br><span class="line">    if n &lt; 2:</span><br><span class="line">        return 1</span><br><span class="line">    return rec(n // 2) + rec(n // 4)</span><br><span class="line">print(rec(12345678987654321))</span><br></pre></td></tr></table></figure></p>
+        <h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>假设可以不考虑计算机运行资源（如内存、堆栈）的限制，以下Python3代码预期的输出结果是</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">def rec(n):</span><br><span class="line">    if n &lt; 2:</span><br><span class="line">        return 1</span><br><span class="line">    return rec(n // 2) + rec(n // 4)</span><br><span class="line">print(rec(12345678987654321))</span><br></pre></td></tr></table></figure>
+
 <p>print(rec(123456789))可以很容易跑出结果317811，但是print(rec(12345678987654321))运行了一晚上也没出来结果。<br>PS. 题目来自朋友圈一个同学去360的面试题。</p>
 <h1 id="联想"><a href="#联想" class="headerlink" title="联想"></a>联想</h1><p>递归是有规律的。联想到高中的数学归纳法，可以从小的数据慢慢往后推倒。从小数字推到大数字。<br>有点逆向思维的意思。题目中的递归是从大数字慢慢推到小数字，直至递归出口。</p>
 <h1 id="找规律"><a href="#找规律" class="headerlink" title="找规律"></a>找规律</h1><p>(0) = 1<br>(1) = 1<br>(2) = (1) + (0) = 1 + 1 = 2<br>(3) = (1) + (0) = 1 + 1 = 2<br>(4) = (2) + (1) = 3<br>(5) = (2) + (1) = 3<br>(6) = (3) + (1) = 3<br>(7) = (3) + (1) = 3<br>(8) = (4) + (2) = 5<br>…<br>写多了就会发现规律：把该数转化为二进制数。二进制数的长度相同，则结果相同。其实，除以2和除以4也能看出，大概跟二进制有关系。</p>
 <h1 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h1><p>把一个十进制的数n表示成二进制数为abcde…xyz，它的rec应该是去掉末一位abcde…xy的rec加上去掉末两位abcde…x的rec，即<br>rec(abcde…xyz) = rec(abcde…xy) + rec(abcde…x)<br>似曾相识的感觉！有点像斐波那契数列！是变形的斐波那契数列！是关于二进制数长度的斐波那契数列，即斐波那契数列的下标是二进制数的长度。</p>
 <h1 id="转化为迭代"><a href="#转化为迭代" class="headerlink" title="转化为迭代"></a>转化为迭代</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#! /usr/bin/env python</span></span><br><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> log</span><br><span class="line"><span class="comment"># n = 123456789</span></span><br><span class="line">n = <span class="number">12345678987654321</span></span><br><span class="line">length = int(log(n, <span class="number">2</span>)) + <span class="number">1</span></span><br><span class="line">a, b = <span class="number">0</span>, <span class="number">1</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(length):</span><br><span class="line">    a, b = b, a + b</span><br><span class="line"><span class="keyword">print</span> b</span><br></pre></td></tr></table></figure>
-<p>output: 139583862445<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">In [<span class="number">1</span>]: bin(<span class="number">8</span>)</span><br><span class="line">Out[<span class="number">1</span>]: <span class="string">'0b1000'</span></span><br><span class="line"><span class="comment"># 结果是字符串，但有0b标识为二进制</span></span><br></pre></td></tr></table></figure></p>
+
+<p>output: 139583862445</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">In [<span class="number">1</span>]: bin(<span class="number">8</span>)</span><br><span class="line">Out[<span class="number">1</span>]: <span class="string">'0b1000'</span></span><br><span class="line"><span class="comment"># 结果是字符串，但有0b标识为二进制</span></span><br></pre></td></tr></table></figure>
+
 <h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>可以使用较小的数，两个代码同时运行，验证结果。<br>再大的数n，也可以迅速算出结果。因为知道n对应的二进制数有多少位即可。</p>
 <h1 id="启示"><a href="#启示" class="headerlink" title="启示"></a>启示</h1><p>1、有时问题比较抽象，可以举几个简单的例子，实际笔算一下，感受一下过程，说不准灵感就来了。<br>2、有时候思考了很久还没有结果，那就直接去找答案吧，避免长时间的挫败感。说不准会有醍醐灌顶的效果。<br>3、有的题目可能会有多种解法。多种解法综合比较一下，或许有意想不到的收获。<br>4、思考的过程是值得的，沿途的风景会很美！慢慢培养成就感~</p>
 

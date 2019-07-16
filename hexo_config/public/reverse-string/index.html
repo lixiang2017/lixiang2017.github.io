@@ -6,7 +6,7 @@
 
 
 <html class="theme-next mist use-motion" lang>
-<head><meta name="generator" content="Hexo 3.8.0">
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="Python实现字符串反转的四种方法 切片  12def rev(s):    return s[::-1] 这是采用切片的方法，设置步长为-1，也就是反过来排序。这种方法是最简洁的，也是最推荐的。  传统方法1234567def rev(s):    str0 = ”    l = len(s)-1    while l &amp;gt;= 0:        str0 += s[l]        l">
+<meta name="description" content="Python实现字符串反转的四种方法 切片  12def rev(s):    return s[::-1]  这是采用切片的方法，设置步长为-1，也就是反过来排序。这种方法是最简洁的，也是最推荐的。  传统方法1234567def rev(s):    str0 = ”    l = len(s)-1    while l &amp;gt;= 0:        str0 += s[l]">
 <meta name="keywords" content="python">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Reverse String">
 <meta property="og:url" content="http://xianglee.top/reverse-string/index.html">
 <meta property="og:site_name" content="lixiang">
-<meta property="og:description" content="Python实现字符串反转的四种方法 切片  12def rev(s):    return s[::-1] 这是采用切片的方法，设置步长为-1，也就是反过来排序。这种方法是最简洁的，也是最推荐的。  传统方法1234567def rev(s):    str0 = ”    l = len(s)-1    while l &amp;gt;= 0:        str0 += s[l]        l">
+<meta property="og:description" content="Python实现字符串反转的四种方法 切片  12def rev(s):    return s[::-1]  这是采用切片的方法，设置步长为-1，也就是反过来排序。这种方法是最简洁的，也是最推荐的。  传统方法1234567def rev(s):    str0 = ”    l = len(s)-1    while l &amp;gt;= 0:        str0 += s[l]">
 <meta property="og:locale" content="default">
 <meta property="og:updated_time" content="2019-01-13T10:03:48.527Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Reverse String">
-<meta name="twitter:description" content="Python实现字符串反转的四种方法 切片  12def rev(s):    return s[::-1] 这是采用切片的方法，设置步长为-1，也就是反过来排序。这种方法是最简洁的，也是最推荐的。  传统方法1234567def rev(s):    str0 = ”    l = len(s)-1    while l &amp;gt;= 0:        str0 += s[l]        l">
+<meta name="twitter:description" content="Python实现字符串反转的四种方法 切片  12def rev(s):    return s[::-1]  这是采用切片的方法，设置步长为-1，也就是反过来排序。这种方法是最简洁的，也是最推荐的。  传统方法1234567def rev(s):    str0 = ”    l = len(s)-1    while l &amp;gt;= 0:        str0 += s[l]">
 
 
 
@@ -345,24 +345,31 @@
 <li>切片</li>
 </ol>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">rev</span><span class="params">(s)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> s[::<span class="number">-1</span>]</span><br></pre></td></tr></table></figure>
+
 <p>这是采用切片的方法，设置步长为-1，也就是反过来排序。这种方法是最简洁的，也是最推荐的。</p>
 <ol start="2">
 <li>传统方法<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">rev</span><span class="params">(s)</span>:</span></span><br><span class="line">    str0 = ”</span><br><span class="line">    l = len(s)<span class="number">-1</span></span><br><span class="line">    <span class="keyword">while</span> l &gt;= <span class="number">0</span>:</span><br><span class="line">        str0 += s[l]</span><br><span class="line">        l -= <span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> str0</span><br></pre></td></tr></table></figure>
+
 </li>
 </ol>
 <p>这种方法是先设置一个str0的空变量，然后在s中从后往前取值，然后追加到str0中。</p>
-<p>3.列表<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">rev</span><span class="params">(s)</span>:</span></span><br><span class="line">    a = list(s)</span><br><span class="line">    a.reverse()</span><br><span class="line">    <span class="keyword">return</span> ”.join(a)</span><br></pre></td></tr></table></figure></p>
+<p>3.列表</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">rev</span><span class="params">(s)</span>:</span></span><br><span class="line">    a = list(s)</span><br><span class="line">    a.reverse()</span><br><span class="line">    <span class="keyword">return</span> ”.join(a)</span><br></pre></td></tr></table></figure>
+
 <p>这种方法是采用列表的reverse方法，先将s转换为列表，然后通过reverse方法反转，然后在通过join连接为字符串。</p>
 <p>注意：这里注意区分列表的reverse和sort（或sorted）方法：<br>reverse是把列表方向排序;<br>sort(reverse=True)是按照某种顺序方向排序。<br>example:</p>
 <blockquote>
 <blockquote>
 <blockquote>
-<p>a=[‘a’,’c’,’b’,’d’]<br>b=[‘a’,’c’,’b’,’d’]<br>a.sort(reverse=True)<br>b.reverse()<br>a<br>[‘d’, ‘c’, ‘b’, ‘a’]<br>b<br>[‘d’, ‘b’, ‘c’, ‘a’]</p>
+<p>a=[‘a’,’c’,’b’,’d’]<br>b=[‘a’,’c’,’b’,’d’]<br>a.sort(reverse=True)<br>b.reverse()<br>a
+[‘d’, ‘c’, ‘b’, ‘a’]<br>b
+[‘d’, ‘b’, ‘c’, ‘a’]</p>
 </blockquote>
 </blockquote>
 </blockquote>
 <ol start="4">
 <li>reduce<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> functools <span class="keyword">import</span> reduce</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">rev</span><span class="params">(s)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> reduce(<span class="keyword">lambda</span> x, y : y + x, s)</span><br></pre></td></tr></table></figure>
+
 </li>
 </ol>
 

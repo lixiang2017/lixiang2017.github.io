@@ -6,7 +6,7 @@
 
 
 <html class="theme-next mist use-motion" lang>
-<head><meta name="generator" content="Hexo 3.8.0">
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -79,12 +79,12 @@
 
 
 
-<meta name="description" content="启动失败 查看日志原因：内存不足Solution 成功开启MySQL获取临时密码1234grep &quot;A temporary password&quot; /var/log/mysqld.log  # 修改root密码，必须包含大小写特殊字母mysql -u root -palter user &apos;root&apos;@&apos;localhost&apos; identified by &apos;your_password&apos;; 使用DBeave">
+<meta name="description" content="启动失败 查看日志原因：内存不足Solution 成功开启MySQL获取临时密码1234grep &quot;A temporary password&quot; /var/log/mysqld.log  # 修改root密码，必须包含大小写特殊字母mysql -u root -palter user &apos;root&apos;@&apos;localhost&apos; identified by &apos;your_password&apos;;  使用DBeav">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Failed to Start Mysql8.0 in Centos7(vultr)">
 <meta property="og:url" content="http://xianglee.top/failed-to-start-mysql8-0-in-centos7/index.html">
 <meta property="og:site_name" content="lixiang">
-<meta property="og:description" content="启动失败 查看日志原因：内存不足Solution 成功开启MySQL获取临时密码1234grep &quot;A temporary password&quot; /var/log/mysqld.log  # 修改root密码，必须包含大小写特殊字母mysql -u root -palter user &apos;root&apos;@&apos;localhost&apos; identified by &apos;your_password&apos;; 使用DBeave">
+<meta property="og:description" content="启动失败 查看日志原因：内存不足Solution 成功开启MySQL获取临时密码1234grep &quot;A temporary password&quot; /var/log/mysqld.log  # 修改root密码，必须包含大小写特殊字母mysql -u root -palter user &apos;root&apos;@&apos;localhost&apos; identified by &apos;your_password&apos;;  使用DBeav">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://xianglee.top/failed-to-start-mysql8-0-in-centos7/75749952.png">
 <meta property="og:image" content="http://xianglee.top/failed-to-start-mysql8-0-in-centos7/75771201.png">
@@ -104,7 +104,7 @@
 <meta property="og:updated_time" content="2019-01-20T13:58:47.987Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Failed to Start Mysql8.0 in Centos7(vultr)">
-<meta name="twitter:description" content="启动失败 查看日志原因：内存不足Solution 成功开启MySQL获取临时密码1234grep &quot;A temporary password&quot; /var/log/mysqld.log  # 修改root密码，必须包含大小写特殊字母mysql -u root -palter user &apos;root&apos;@&apos;localhost&apos; identified by &apos;your_password&apos;; 使用DBeave">
+<meta name="twitter:description" content="启动失败 查看日志原因：内存不足Solution 成功开启MySQL获取临时密码1234grep &quot;A temporary password&quot; /var/log/mysqld.log  # 修改root密码，必须包含大小写特殊字母mysql -u root -palter user &apos;root&apos;@&apos;localhost&apos; identified by &apos;your_password&apos;;  使用DBeav">
 <meta name="twitter:image" content="http://xianglee.top/failed-to-start-mysql8-0-in-centos7/75749952.png">
 
 
@@ -359,10 +359,17 @@
         <h2 id="启动失败"><a href="#启动失败" class="headerlink" title="启动失败"></a>启动失败</h2><p><img src="75749952.png" alt><br><img src="75771201.png" alt></p>
 <h2 id="查看日志"><a href="#查看日志" class="headerlink" title="查看日志"></a>查看日志</h2><p><img src="75840236.png" alt><br>原因：内存不足<br><img src="vultr_hardinfo.jpg" alt><br><a href="https://blog.csdn.net/Mr_OOO/article/details/78653523" target="_blank" rel="noopener">Solution</a><br><img src="76140575.png" alt><br><img src="76232995.png" alt></p>
 <h2 id="成功开启MySQL"><a href="#成功开启MySQL" class="headerlink" title="成功开启MySQL"></a>成功开启MySQL</h2><h2 id="获取临时密码"><a href="#获取临时密码" class="headerlink" title="获取临时密码"></a>获取临时密码</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">grep <span class="string">"A temporary password"</span> /var/<span class="built_in">log</span>/mysqld.log  </span><br><span class="line"><span class="comment"># 修改root密码，必须包含大小写特殊字母</span></span><br><span class="line">mysql -u root -p</span><br><span class="line">alter user <span class="string">'root'</span>@<span class="string">'localhost'</span> identified by <span class="string">'your_password'</span>;</span><br></pre></td></tr></table></figure>
-<h2 id="使用DBeaver客户端连接失败"><a href="#使用DBeaver客户端连接失败" class="headerlink" title="使用DBeaver客户端连接失败"></a>使用DBeaver客户端连接失败</h2><p><img src="71003550.png" alt><br><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Communications link failure</span><br><span class="line">The last packet sent successfully to the server was <span class="number">0</span> milliseconds ago. The driver has <span class="keyword">not</span> received any packets from the server.</span><br><span class="line">  Connection refused (Connection refused)</span><br></pre></td></tr></table></figure></p>
+
+<h2 id="使用DBeaver客户端连接失败"><a href="#使用DBeaver客户端连接失败" class="headerlink" title="使用DBeaver客户端连接失败"></a>使用DBeaver客户端连接失败</h2><p><img src="71003550.png" alt></p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Communications link failure</span><br><span class="line">The last packet sent successfully to the server was <span class="number">0</span> milliseconds ago. The driver has <span class="keyword">not</span> received any packets from the server.</span><br><span class="line">  Connection refused (Connection refused)</span><br></pre></td></tr></table></figure>
+
 <h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><h3 id="远程测试端口是否开启"><a href="#远程测试端口是否开启" class="headerlink" title="远程测试端口是否开启"></a>远程测试端口是否开启</h3><p><img src="71918674.png" alt></p>
-<h3 id="服务器本机查看端口是否开启"><a href="#服务器本机查看端口是否开启" class="headerlink" title="服务器本机查看端口是否开启"></a>服务器本机查看端口是否开启</h3><p><img src="71982775.png" alt><br><img src="72127872.png" alt><br>原因：防火墙中端口没有开启<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --zone=public --list-ports</span></span><br><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --zone=public --list-ports | grep 3306</span></span><br><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --zone=public --add-port=3306/tcp --permanent</span></span><br><span class="line">success</span><br><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --zone=public --add-port=3306/udp --permanent</span></span><br><span class="line">success</span><br><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --zone=public --list-ports</span></span><br><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --reload</span></span><br><span class="line">success</span><br><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --zone=public --list-ports</span></span><br></pre></td></tr></table></figure></p>
-<p><img src="72326504.png" alt><br><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">null, message from server: "Host '<span class="number">61</span>.<span class="number">148</span>.<span class="number">199</span>.<span class="number">222</span>' is <span class="keyword">not</span> allowed to connect to this MySQL server"</span><br></pre></td></tr></table></figure></p>
+<h3 id="服务器本机查看端口是否开启"><a href="#服务器本机查看端口是否开启" class="headerlink" title="服务器本机查看端口是否开启"></a>服务器本机查看端口是否开启</h3><p><img src="71982775.png" alt><br><img src="72127872.png" alt><br>原因：防火墙中端口没有开启</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --zone=public --list-ports</span></span><br><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --zone=public --list-ports | grep 3306</span></span><br><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --zone=public --add-port=3306/tcp --permanent</span></span><br><span class="line">success</span><br><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --zone=public --add-port=3306/udp --permanent</span></span><br><span class="line">success</span><br><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --zone=public --list-ports</span></span><br><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --reload</span></span><br><span class="line">success</span><br><span class="line">[root@vultr ~]<span class="comment"># firewall-cmd --zone=public --list-ports</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="72326504.png" alt></p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">null, message from server: "Host '<span class="number">61</span>.<span class="number">148</span>.<span class="number">199</span>.<span class="number">222</span>' is <span class="keyword">not</span> allowed to connect to this MySQL server"</span><br></pre></td></tr></table></figure>
+
 <h2 id="服务器本地可以登录"><a href="#服务器本地可以登录" class="headerlink" title="服务器本地可以登录"></a>服务器本地可以登录</h2><p><img src="35968830.png" alt></p>
 <h2 id="客户端无法登录，Public-Key-Retrieval-is-not-allowed"><a href="#客户端无法登录，Public-Key-Retrieval-is-not-allowed" class="headerlink" title="客户端无法登录，Public Key Retrieval is not allowed"></a>客户端无法登录，Public Key Retrieval is not allowed</h2><p><img src="36006075.png" alt><br>修改DBeaver中驱动属性，allowPublicKeyRetrieval属性值改为true<br><img src="36115949.png" alt></p>
 <h2 id="连接成功"><a href="#连接成功" class="headerlink" title="连接成功"></a>连接成功</h2><p><img src="36201778.png" alt></p>

@@ -6,7 +6,7 @@
 
 
 <html class="theme-next mist use-motion" lang>
-<head><meta name="generator" content="Hexo 3.8.0">
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -341,6 +341,7 @@
 
       
         <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 考拉兹猜想（Collatz conjecture）/ 3n+1猜想</span></span><br><span class="line"><span class="comment">% 对所有自然数，如果它是奇数，则对它乘3再加1，如果它是偶数，则对它除以2，如此循环，最终都能够得到1。    </span></span><br><span class="line"><span class="comment">% matlab</span></span><br><span class="line"><span class="keyword">while</span> <span class="number">1</span></span><br><span class="line">    n = input(<span class="string">'please input n :'</span>)</span><br><span class="line">    <span class="keyword">if</span> n &lt;= <span class="number">0</span>  <span class="keyword">break</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> n &gt; <span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">rem</span>(n, <span class="number">2</span>) == <span class="number">0</span></span><br><span class="line">            n = n / <span class="number">2</span></span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            n = <span class="number">3</span> * n + <span class="number">1</span></span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">        fprintf(<span class="string">'\n n = %d'</span>, n)</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+
 
       
     </div>

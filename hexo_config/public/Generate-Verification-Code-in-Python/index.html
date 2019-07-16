@@ -6,7 +6,7 @@
 
 
 <html class="theme-next mist use-motion" lang>
-<head><meta name="generator" content="Hexo 3.8.0">
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -345,7 +345,9 @@
 
       
         <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> random</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">generate_verification_code</span><span class="params">(length=<span class="number">6</span>)</span>:</span></span><br><span class="line">    <span class="string">"""随机生成6位的验证码"""</span></span><br><span class="line">    code_list = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">10</span>): <span class="comment"># 0-9</span></span><br><span class="line">        code_list.append(str(i))</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(ord(<span class="string">"A"</span>), ord(<span class="string">"Z"</span>) + <span class="number">1</span>):</span><br><span class="line">        code_list.append(chr(i))</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(ord(<span class="string">"a"</span>), ord(<span class="string">"z"</span>) + <span class="number">1</span>):</span><br><span class="line">        code_list.append(chr(i))</span><br><span class="line"></span><br><span class="line">    veri_list = random.sample(code_list, length)</span><br><span class="line">    <span class="keyword">return</span> <span class="string">""</span>.join(veri_list)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">    print(generate_verification_code())</span><br><span class="line">    print(generate_verification_code(<span class="number">8</span>))</span><br></pre></td></tr></table></figure>
+
 <figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ji0sYH</span><br><span class="line">j8XfT9sh</span><br></pre></td></tr></table></figure>
+
 <h6 id="REF"><a href="#REF" class="headerlink" title="REF"></a>REF</h6><p><img src="random.sample.png" alt><br><img src="ord.png" alt><br><img src="chr.png" alt></p>
 
       

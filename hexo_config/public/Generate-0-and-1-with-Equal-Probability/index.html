@@ -6,7 +6,7 @@
 
 
 <html class="theme-next mist use-motion" lang>
-<head><meta name="generator" content="Hexo 3.8.0">
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="一个有问题的解法：上述解法在i,j取值为0,0和1,1时，均造成死循环。正确的做法应该是把原始随机函数放入while中。123456789101112#小年糕面试题# given     A()  return 0 1  probability: p 1-p# implement B()  return 0 1  probability: 50% 50%def B():    while(True">
+<meta name="description" content="一个有问题的解法：上述解法在i,j取值为0,0和1,1时，均造成死循环。正确的做法应该是把原始随机函数放入while中。 123456789101112#小年糕面试题# given     A()  return 0 1  probability: p 1-p# implement B()  return 0 1  probability: 50% 50%def B():    while(Tru">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Generate 0 and 1 with Equal Probability">
 <meta property="og:url" content="http://xianglee.top/Generate-0-and-1-with-Equal-Probability/index.html">
 <meta property="og:site_name" content="lixiang">
-<meta property="og:description" content="一个有问题的解法：上述解法在i,j取值为0,0和1,1时，均造成死循环。正确的做法应该是把原始随机函数放入while中。123456789101112#小年糕面试题# given     A()  return 0 1  probability: p 1-p# implement B()  return 0 1  probability: 50% 50%def B():    while(True">
+<meta property="og:description" content="一个有问题的解法：上述解法在i,j取值为0,0和1,1时，均造成死循环。正确的做法应该是把原始随机函数放入while中。 123456789101112#小年糕面试题# given     A()  return 0 1  probability: p 1-p# implement B()  return 0 1  probability: 50% 50%def B():    while(Tru">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://xianglee.top/Generate-0-and-1-with-Equal-Probability/infinite_loop.jpg">
 <meta property="og:updated_time" content="2019-01-13T10:03:48.519Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Generate 0 and 1 with Equal Probability">
-<meta name="twitter:description" content="一个有问题的解法：上述解法在i,j取值为0,0和1,1时，均造成死循环。正确的做法应该是把原始随机函数放入while中。123456789101112#小年糕面试题# given     A()  return 0 1  probability: p 1-p# implement B()  return 0 1  probability: 50% 50%def B():    while(True">
+<meta name="twitter:description" content="一个有问题的解法：上述解法在i,j取值为0,0和1,1时，均造成死循环。正确的做法应该是把原始随机函数放入while中。 123456789101112#小年糕面试题# given     A()  return 0 1  probability: p 1-p# implement B()  return 0 1  probability: 50% 50%def B():    while(Tru">
 <meta name="twitter:image" content="http://xianglee.top/Generate-0-and-1-with-Equal-Probability/infinite_loop.jpg">
 
 
@@ -342,7 +342,9 @@
       
 
       
-        <p>一个有问题的解法：<br><img src="infinite_loop.jpg" alt><br>上述解法在i,j取值为0,0和1,1时，均造成死循环。正确的做法应该是把原始随机函数放入while中。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#小年糕面试题</span></span><br><span class="line"><span class="comment"># given     A()  return 0 1  probability: p 1-p</span></span><br><span class="line"><span class="comment"># implement B()  return 0 1  probability: 50% 50%</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">B</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="keyword">while</span>(<span class="keyword">True</span>):</span><br><span class="line">        i = A()</span><br><span class="line">        j = A()</span><br><span class="line">        <span class="keyword">if</span>((<span class="number">0</span> == i) <span class="keyword">and</span> (<span class="number">1</span> == j)):   <span class="comment"># p*(1-p)</span></span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">        <span class="keyword">elif</span>((<span class="number">1</span> == i) <span class="keyword">and</span> (<span class="number">0</span> == j)): <span class="comment"># (1-p)*p</span></span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span></span><br></pre></td></tr></table></figure></p>
+        <p>一个有问题的解法：<br><img src="infinite_loop.jpg" alt><br>上述解法在i,j取值为0,0和1,1时，均造成死循环。正确的做法应该是把原始随机函数放入while中。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#小年糕面试题</span></span><br><span class="line"><span class="comment"># given     A()  return 0 1  probability: p 1-p</span></span><br><span class="line"><span class="comment"># implement B()  return 0 1  probability: 50% 50%</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">B</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="keyword">while</span>(<span class="literal">True</span>):</span><br><span class="line">        i = A()</span><br><span class="line">        j = A()</span><br><span class="line">        <span class="keyword">if</span>((<span class="number">0</span> == i) <span class="keyword">and</span> (<span class="number">1</span> == j)):   <span class="comment"># p*(1-p)</span></span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">        <span class="keyword">elif</span>((<span class="number">1</span> == i) <span class="keyword">and</span> (<span class="number">0</span> == j)): <span class="comment"># (1-p)*p</span></span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
 
       
     </div>
