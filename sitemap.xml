@@ -4,7 +4,7 @@
   <url>
     <loc>http://xianglee.top/woniu/</loc>
     
-    <lastmod>2019-10-07T10:52:25.390Z</lastmod>
+    <lastmod>2019-10-07T15:11:06.278Z</lastmod>
     
   </url>
   
@@ -23,13 +23,6 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/categories/index.html</loc>
-    
-    <lastmod>2019-08-01T14:05:38.311Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://xianglee.top/about/index.html</loc>
     
     <lastmod>2019-08-01T14:05:38.311Z</lastmod>
@@ -37,7 +30,7 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/tank/</loc>
+    <loc>http://xianglee.top/categories/index.html</loc>
     
     <lastmod>2019-08-01T14:05:38.311Z</lastmod>
     
@@ -45,6 +38,13 @@
   
   <url>
     <loc>http://xianglee.top/system-path-of-python-in-windows-and-ubuntu/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.311Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/tank/</loc>
     
     <lastmod>2019-08-01T14:05:38.311Z</lastmod>
     
@@ -72,14 +72,14 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/remove-special-substrings-in-a-string/</loc>
+    <loc>http://xianglee.top/reverse-string/</loc>
     
     <lastmod>2019-08-01T14:05:38.299Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglee.top/reverse-string/</loc>
+    <loc>http://xianglee.top/remove-special-substrings-in-a-string/</loc>
     
     <lastmod>2019-08-01T14:05:38.299Z</lastmod>
     
@@ -128,14 +128,14 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/compare_version/</loc>
+    <loc>http://xianglee.top/chrome-aw-snap/</loc>
     
     <lastmod>2019-08-01T14:05:38.295Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglee.top/chrome-aw-snap/</loc>
+    <loc>http://xianglee.top/compare_version/</loc>
     
     <lastmod>2019-08-01T14:05:38.295Z</lastmod>
     
@@ -156,7 +156,7 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/calculate-the-number-of-uppercase-letters-in-a-file/</loc>
+    <loc>http://xianglee.top/calc-entropy-and-divergence/</loc>
     
     <lastmod>2019-08-01T14:05:38.295Z</lastmod>
     
@@ -170,7 +170,7 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/calc-entropy-and-divergence/</loc>
+    <loc>http://xianglee.top/calculate-the-number-of-uppercase-letters-in-a-file/</loc>
     
     <lastmod>2019-08-01T14:05:38.295Z</lastmod>
     
@@ -212,14 +212,14 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/Similar-Strings/</loc>
+    <loc>http://xianglee.top/List-Files-and-Directory-Tree-Structure-in-Python/</loc>
     
     <lastmod>2019-08-01T14:05:38.287Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglee.top/List-Files-and-Directory-Tree-Structure-in-Python/</loc>
+    <loc>http://xianglee.top/Similar-Strings/</loc>
     
     <lastmod>2019-08-01T14:05:38.287Z</lastmod>
     
@@ -233,7 +233,7 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/4-Ways-of-Fibonacci-in-Python/</loc>
+    <loc>http://xianglee.top/187/</loc>
     
     <lastmod>2019-08-01T14:05:38.283Z</lastmod>
     
@@ -247,13 +247,6 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/Bitmap/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.283Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://xianglee.top/Data-Structure-Alignment-and-Padding-in-C/</loc>
     
     <lastmod>2019-08-01T14:05:38.283Z</lastmod>
@@ -261,14 +254,21 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/12345678987654321/</loc>
+    <loc>http://xianglee.top/4-Ways-of-Fibonacci-in-Python/</loc>
     
     <lastmod>2019-08-01T14:05:38.283Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglee.top/187/</loc>
+    <loc>http://xianglee.top/Bitmap/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.283Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/12345678987654321/</loc>
     
     <lastmod>2019-08-01T14:05:38.283Z</lastmod>
     
