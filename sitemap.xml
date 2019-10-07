@@ -4,7 +4,7 @@
   <url>
     <loc>http://xianglee.top/woniu/</loc>
     
-    <lastmod>2019-10-07T15:16:35.085Z</lastmod>
+    <lastmod>2019-10-07T15:19:07.700Z</lastmod>
     
   </url>
   
@@ -51,28 +51,14 @@
   </url>
   
   <url>
+    <loc>http://xianglee.top/hello-world/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xianglee.top/ssh-failed-to-connect-centos7-in-vultr/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/sort-strings-in-c/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/linux_tips/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/shuffle-a-list-in-place/</loc>
     
     <lastmod>2019-08-01T14:05:38.299Z</lastmod>
     
@@ -86,35 +72,14 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/method-chaining-or-cascading-in-python/</loc>
+    <loc>http://xianglee.top/sort-strings-in-c/</loc>
     
     <lastmod>2019-08-01T14:05:38.299Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglee.top/lrzsz/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/fashion-ai/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/if-else-in-Python/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/hello-world/</loc>
+    <loc>http://xianglee.top/shuffle-a-list-in-place/</loc>
     
     <lastmod>2019-08-01T14:05:38.299Z</lastmod>
     
@@ -128,7 +93,49 @@
   </url>
   
   <url>
+    <loc>http://xianglee.top/if-else-in-Python/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/linux_tips/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/lrzsz/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/method-chaining-or-cascading-in-python/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/fashion-ai/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xianglee.top/chrome-aw-snap/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/failed-to-start-mysql8-0-in-centos7/</loc>
     
     <lastmod>2019-08-01T14:05:38.295Z</lastmod>
     
@@ -149,20 +156,6 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/calculate-the-number-of-uppercase-letters-in-a-file/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/failed-to-start-mysql8-0-in-centos7/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://xianglee.top/calc-entropy-and-divergence/</loc>
     
     <lastmod>2019-08-01T14:05:38.295Z</lastmod>
@@ -177,9 +170,9 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/Transformer/</loc>
+    <loc>http://xianglee.top/calculate-the-number-of-uppercase-letters-in-a-file/</loc>
     
-    <lastmod>2019-08-01T14:05:38.291Z</lastmod>
+    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
     
   </url>
   
@@ -191,14 +184,14 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/List-Files-and-Directory-Tree-Structure-in-Python/</loc>
+    <loc>http://xianglee.top/Transformer/</loc>
     
-    <lastmod>2019-08-01T14:05:38.287Z</lastmod>
+    <lastmod>2019-08-01T14:05:38.291Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglee.top/Sports-Meeting/</loc>
+    <loc>http://xianglee.top/Generate-Verification-Code-in-Python/</loc>
     
     <lastmod>2019-08-01T14:05:38.287Z</lastmod>
     
@@ -219,7 +212,14 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/Generate-Verification-Code-in-Python/</loc>
+    <loc>http://xianglee.top/List-Files-and-Directory-Tree-Structure-in-Python/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.287Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/Sports-Meeting/</loc>
     
     <lastmod>2019-08-01T14:05:38.287Z</lastmod>
     
@@ -233,7 +233,7 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/12345678987654321/</loc>
+    <loc>http://xianglee.top/187/</loc>
     
     <lastmod>2019-08-01T14:05:38.283Z</lastmod>
     
@@ -268,7 +268,7 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/187/</loc>
+    <loc>http://xianglee.top/12345678987654321/</loc>
     
     <lastmod>2019-08-01T14:05:38.283Z</lastmod>
     
