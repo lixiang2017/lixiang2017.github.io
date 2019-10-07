@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="花费蜗牛星际B款双网口 ￥338三星PM851 120G msata固态硬盘 ￥140西部数据机械硬盘 2T*2 ￥533绿联千兆网线 ￥67.8+￥543pin风扇减速线 ￥8合计：￥1140.8北京联通300M宽带1年 ￥1072/3可能还需要一个千兆交换机 背景蜗牛买回来，msata就是坏的了，基本不能识别蜗牛安装好了pve，在pve上装好了iKuai、LEDE(openwrt)和群晖(DS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="蜗牛星际折腾记">
+<meta property="og:url" content="http://xianglee.top/woniu/index.html">
+<meta property="og:site_name" content="lixiang">
+<meta property="og:description" content="花费蜗牛星际B款双网口 ￥338三星PM851 120G msata固态硬盘 ￥140西部数据机械硬盘 2T*2 ￥533绿联千兆网线 ￥67.8+￥543pin风扇减速线 ￥8合计：￥1140.8北京联通300M宽带1年 ￥1072/3可能还需要一个千兆交换机 背景蜗牛买回来，msata就是坏的了，基本不能识别蜗牛安装好了pve，在pve上装好了iKuai、LEDE(openwrt)和群晖(DS">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="http://xianglee.top/woniu/speedtest.jpg">
+<meta property="og:image" content="http://xianglee.top/woniu/k2p.1.jpg">
+<meta property="og:image" content="http://xianglee.top/woniu/tplink.jpg">
+<meta property="og:image" content="http://xianglee.top/woniu/modem.jpg">
+<meta property="og:image" content="http://xianglee.top/woniu/wireless.jpg">
+<meta property="og:image" content="http://xianglee.top/woniu/wired.jpg">
+<meta property="og:updated_time" content="2019-10-07T15:23:45.733Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="蜗牛星际折腾记">
+<meta name="twitter:description" content="花费蜗牛星际B款双网口 ￥338三星PM851 120G msata固态硬盘 ￥140西部数据机械硬盘 2T*2 ￥533绿联千兆网线 ￥67.8+￥543pin风扇减速线 ￥8合计：￥1140.8北京联通300M宽带1年 ￥1072/3可能还需要一个千兆交换机 背景蜗牛买回来，msata就是坏的了，基本不能识别蜗牛安装好了pve，在pve上装好了iKuai、LEDE(openwrt)和群晖(DS">
+<meta name="twitter:image" content="http://xianglee.top/woniu/speedtest.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://xianglee.top/woniu/">
+
+
+
+
+
+  <title>蜗牛星际折腾记 | lixiang</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">lixiang</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://xianglee.top/woniu/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="li xiang">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="lixiang">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">蜗牛星际折腾记</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-10-07T18:52:25+08:00">
+                2019-10-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/woniu/" class="leancloud_visitors" data-flag-title="蜗牛星际折腾记">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="花费"><a href="#花费" class="headerlink" title="花费"></a>花费</h2><p>蜗牛星际B款双网口 ￥338<br>三星PM851 120G msata固态硬盘 ￥140<br>西部数据机械硬盘 2T*2 ￥533<br>绿联千兆网线 ￥67.8+￥54<br>3pin风扇减速线 ￥8<br>合计：￥1140.8<br>北京联通300M宽带1年 ￥1072/3<br>可能还需要一个千兆交换机</p>
+<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>蜗牛买回来，msata就是坏的了，基本不能识别<br>蜗牛安装好了pve，在pve上装好了iKuai、LEDE(openwrt)和群晖(DS3617XS)<br>两块机械硬盘直通给了群晖</p>
+<h2 id="网络拓扑"><a href="#网络拓扑" class="headerlink" title="网络拓扑"></a>网络拓扑</h2><p>－－－光猫（路由模式）－－－TP-link路由器－－－K2P路由器－－－PC<br>三级NAT：光猫通过拨号获取公网IP，TP-link通过DHCP获取IP，K2P通过DHCP获取IP<br>光猫中只有LAN1是千兆口，其他三个LAN口都是百兆口</p>
+<h2 id="测速"><a href="#测速" class="headerlink" title="测速"></a>测速</h2><p>1、百兆网线VS千兆网线<br>在泰联做的网线是百兆的（莫非是八条线中有没接上的？）<br>之前买东西送的一个质量很差的网线是千兆的。<br><img src="speedtest.jpg" alt><br>2、多级NAT降低了网速？实际上没有。<br>在光猫后测试，下载速度将近400Mbps,上传速度大约45Mbps。<br>在TP-link后测试，下载速度将近100Mbps,上传速度大约45Mbps。(tplink应该是百兆的)<br>而在K2P后测试，上传下载只有20左右；把K2P接到光猫后也是这个结果。<br>a. K2P不是千兆的？<br>错，K2P每个口都是千兆的，是千兆路由器。（再说，百兆路由器也应该跑出来100才对<br>b. 高恪的固件问题？（记得之前用官方固件和官改，网速都很流畅。<br>错，固件没有问题。仔细排查了一下，实际是因为外网配置中只使用了虚拟接口，没有使用物理接口。</p>
+<h2 id="设置外网访问群晖管理网址"><a href="#设置外网访问群晖管理网址" class="headerlink" title="设置外网访问群晖管理网址"></a>设置外网访问群晖管理网址</h2><p>方案：DDNS + 端口映射（联通给了公网IP</p>
+<h3 id="DDNS"><a href="#DDNS" class="headerlink" title="DDNS"></a>DDNS</h3><p>域名是之前买的阿里云的。DDNS采用群晖中的docker，搜索下载aliyun-ddns的镜像，配置一下环境变量即可。</p>
+<h4 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h4><p>定时获取联通分配的公网IP，报告给阿里云。阿里云将该记录记录下来。</p>
+<h4 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h4><p>AKID 用户名　　这个从阿里云官网生成获得。<br>AKSCT 密码　　要向阿里云证明你是你，才能说明你的消息是真的。<br>REDO 时间间隔(300) 每个五分钟报告一次<br>DOMAIN dsm.xianglee.top 域名</p>
+<h3 id="多级端口映射"><a href="#多级端口映射" class="headerlink" title="多级端口映射"></a>多级端口映射</h3><h4 id="K2P中"><a href="#K2P中" class="headerlink" title="K2P中"></a>K2P中</h4><p><img src="k2p.1.jpg" alt></p>
+<h4 id="TP-link中"><a href="#TP-link中" class="headerlink" title="TP-link中"></a>TP-link中</h4><p><img src="tplink.jpg" alt></p>
+<h4 id="光猫中"><a href="#光猫中" class="headerlink" title="光猫中"></a>光猫中</h4><p><img src="modem.jpg" alt><br>坑:前两个配置好，内网访问都没问题。光猫配置了，用公网和对应端口始终打不开。<br>原来是要用外网（手机流量）才能打开！！！<br>（一度怀疑北京联通对光猫或者端口做了限制。最后如果没搞定的话，还要打联通客服把光猫改成桥接模式，再买一个千兆路由器拨号。)<br>reference<br><a href="https://blog.csdn.net/u012911347/article/details/81176448" target="_blank" rel="noopener">https://blog.csdn.net/u012911347/article/details/81176448</a></p>
+<h3 id="网址"><a href="#网址" class="headerlink" title="网址"></a>网址</h3><p><a href="http://dsm.xianglee.top:5000" target="_blank" rel="noopener">http://dsm.xianglee.top:5000</a></p>
+<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><p>1、待长网线到了，K2P直连光猫<br>2、多级NAT导致群晖ed2k是low ID。（还是需要多级端口映射？<br>3、外网也能访问的视频库</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>老爸说家里网变慢了。慢了好久了，没流量快。我就测了一下。<br>使用无线测试的<br><img src="wireless.jpg" alt><br>使用有线测试的<br><img src="wired.jpg" alt><br>印象中是50M免费升级到了100M，上行是8M的。<br>我把路由器中的去广告插件打开或者关闭，对测速没啥影响。<br>（然而，现在的去广告也不好用了。）<br>说头条打开慢，还是搜索慢？这是为什么呢？</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="li xiang">
+            
+              <p class="site-author-name" itemprop="name">li xiang</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">35</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/lixiang2017" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-globe"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://twitter.com/laoxing2015" target="_blank" title="Twitter">
+                      
+                        <i class="fa fa-fw fa-globe"></i>Twitter</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://t.me/lixiang1993" target="_blank" title="Telegram">
+                      
+                        <i class="fa fa-fw fa-globe"></i>Telegram</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#花费"><span class="nav-number">1.</span> <span class="nav-text">花费</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景"><span class="nav-number">2.</span> <span class="nav-text">背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#网络拓扑"><span class="nav-number">3.</span> <span class="nav-text">网络拓扑</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#测速"><span class="nav-number">4.</span> <span class="nav-text">测速</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置外网访问群晖管理网址"><span class="nav-number">5.</span> <span class="nav-text">设置外网访问群晖管理网址</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#DDNS"><span class="nav-number">5.1.</span> <span class="nav-text">DDNS</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#原理"><span class="nav-number">5.1.1.</span> <span class="nav-text">原理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#环境变量"><span class="nav-number">5.1.2.</span> <span class="nav-text">环境变量</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#多级端口映射"><span class="nav-number">5.2.</span> <span class="nav-text">多级端口映射</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#K2P中"><span class="nav-number">5.2.1.</span> <span class="nav-text">K2P中</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#TP-link中"><span class="nav-number">5.2.2.</span> <span class="nav-text">TP-link中</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#光猫中"><span class="nav-number">5.2.3.</span> <span class="nav-text">光猫中</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网址"><span class="nav-number">5.3.</span> <span class="nav-text">网址</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TODO"><span class="nav-number">6.</span> <span class="nav-text">TODO</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他"><span class="nav-number">7.</span> <span class="nav-text">其他</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">li xiang</span>
+  <span>&nbsp;<a href="http://www.miitbeian.gov.cn/">京ICP备18019569号</a></span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("7NegBW7yOQCT0K7J1wpfo7Lw-gzGzoHsz", "USrtgSyeAfRpb9OTky1SoKJK");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
