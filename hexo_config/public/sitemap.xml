@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://xianglee.top/woniu/</loc>
+    <loc>http://xianglee.top/shell-script-for-dsm/</loc>
     
-    <lastmod>2019-10-07T15:23:45.733Z</lastmod>
+    <lastmod>2019-12-01T06:13:03.417Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglee.top/schedule/index.html</loc>
+    <loc>http://xianglee.top/woniu/</loc>
     
-    <lastmod>2019-08-01T14:05:38.315Z</lastmod>
+    <lastmod>2019-10-07T15:23:45.733Z</lastmod>
     
   </url>
   
@@ -23,14 +23,14 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/categories/index.html</loc>
+    <loc>http://xianglee.top/schedule/index.html</loc>
     
-    <lastmod>2019-08-01T14:05:38.311Z</lastmod>
+    <lastmod>2019-08-01T14:05:38.315Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglee.top/about/index.html</loc>
+    <loc>http://xianglee.top/categories/index.html</loc>
     
     <lastmod>2019-08-01T14:05:38.311Z</lastmod>
     
@@ -51,9 +51,9 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/ssh-failed-to-connect-centos7-in-vultr/</loc>
+    <loc>http://xianglee.top/about/index.html</loc>
     
-    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
+    <lastmod>2019-08-01T14:05:38.311Z</lastmod>
     
   </url>
   
@@ -65,7 +65,14 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/linux_tips/</loc>
+    <loc>http://xianglee.top/lrzsz/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/ssh-failed-to-connect-centos7-in-vultr/</loc>
     
     <lastmod>2019-08-01T14:05:38.299Z</lastmod>
     
@@ -93,13 +100,6 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/lrzsz/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://xianglee.top/fashion-ai/</loc>
     
     <lastmod>2019-08-01T14:05:38.299Z</lastmod>
@@ -121,6 +121,13 @@
   </url>
   
   <url>
+    <loc>http://xianglee.top/linux_tips/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xianglee.top/shuffle-a-list-in-place/</loc>
     
     <lastmod>2019-08-01T14:05:38.299Z</lastmod>
@@ -128,21 +135,7 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/chrome-aw-snap/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://xianglee.top/compare_version/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/failed-to-start-mysql8-0-in-centos7/</loc>
     
     <lastmod>2019-08-01T14:05:38.295Z</lastmod>
     
@@ -156,14 +149,21 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/calculate-the-number-of-uppercase-letters-in-a-file/</loc>
+    <loc>http://xianglee.top/calc-entropy-and-divergence/</loc>
     
     <lastmod>2019-08-01T14:05:38.295Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglee.top/calc-entropy-and-divergence/</loc>
+    <loc>http://xianglee.top/failed-to-start-mysql8-0-in-centos7/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/calculate-the-number-of-uppercase-letters-in-a-file/</loc>
     
     <lastmod>2019-08-01T14:05:38.295Z</lastmod>
     
@@ -177,14 +177,21 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/Transformer/</loc>
+    <loc>http://xianglee.top/chrome-aw-snap/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/Use-Homebrew-to-Install-both-Python-2-and-3-on-Mac/</loc>
     
     <lastmod>2019-08-01T14:05:38.291Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglee.top/Use-Homebrew-to-Install-both-Python-2-and-3-on-Mac/</loc>
+    <loc>http://xianglee.top/Transformer/</loc>
     
     <lastmod>2019-08-01T14:05:38.291Z</lastmod>
     
@@ -233,7 +240,7 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/12345678987654321/</loc>
+    <loc>http://xianglee.top/187/</loc>
     
     <lastmod>2019-08-01T14:05:38.283Z</lastmod>
     
@@ -254,13 +261,6 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/4-Ways-of-Fibonacci-in-Python/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.283Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://xianglee.top/Bitmap/</loc>
     
     <lastmod>2019-08-01T14:05:38.283Z</lastmod>
@@ -268,7 +268,14 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/187/</loc>
+    <loc>http://xianglee.top/4-Ways-of-Fibonacci-in-Python/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.283Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/12345678987654321/</loc>
     
     <lastmod>2019-08-01T14:05:38.283Z</lastmod>
     
