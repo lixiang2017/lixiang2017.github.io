@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://xianglee.top/woniu/</loc>
+    <loc>http://xianglee.top/shell-script-for-dsm/</loc>
     
-    <lastmod>2019-10-07T15:23:45.733Z</lastmod>
+    <lastmod>2019-12-01T06:03:44.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglee.top/schedule/index.html</loc>
+    <loc>http://xianglee.top/woniu/</loc>
     
-    <lastmod>2019-08-01T14:05:38.315Z</lastmod>
+    <lastmod>2019-10-07T15:23:45.733Z</lastmod>
     
   </url>
   
@@ -23,14 +23,21 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/about/index.html</loc>
+    <loc>http://xianglee.top/schedule/index.html</loc>
+    
+    <lastmod>2019-08-01T14:05:38.315Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/categories/index.html</loc>
     
     <lastmod>2019-08-01T14:05:38.311Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglee.top/categories/index.html</loc>
+    <loc>http://xianglee.top/about/index.html</loc>
     
     <lastmod>2019-08-01T14:05:38.311Z</lastmod>
     
@@ -58,6 +65,13 @@
   </url>
   
   <url>
+    <loc>http://xianglee.top/shuffle-a-list-in-place/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xianglee.top/sort-strings-in-c/</loc>
     
     <lastmod>2019-08-01T14:05:38.299Z</lastmod>
@@ -72,7 +86,7 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/shuffle-a-list-in-place/</loc>
+    <loc>http://xianglee.top/reverse-string/</loc>
     
     <lastmod>2019-08-01T14:05:38.299Z</lastmod>
     
@@ -86,7 +100,7 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/lrzsz/</loc>
+    <loc>http://xianglee.top/method-chaining-or-cascading-in-python/</loc>
     
     <lastmod>2019-08-01T14:05:38.299Z</lastmod>
     
@@ -94,6 +108,13 @@
   
   <url>
     <loc>http://xianglee.top/linux_tips/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/lrzsz/</loc>
     
     <lastmod>2019-08-01T14:05:38.299Z</lastmod>
     
@@ -114,56 +135,7 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/method-chaining-or-cascading-in-python/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/reverse-string/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.299Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/failed-to-start-mysql8-0-in-centos7/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/chrome-aw-snap/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/built-in-types-in-python/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://xianglee.top/compare_version/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/calc-entropy-and-divergence/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/calculate-the-number-of-uppercase-letters-in-a-file/</loc>
     
     <lastmod>2019-08-01T14:05:38.295Z</lastmod>
     
@@ -177,9 +149,37 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/Use-Homebrew-to-Install-both-Python-2-and-3-on-Mac/</loc>
+    <loc>http://xianglee.top/chrome-aw-snap/</loc>
     
-    <lastmod>2019-08-01T14:05:38.291Z</lastmod>
+    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/calculate-the-number-of-uppercase-letters-in-a-file/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/failed-to-start-mysql8-0-in-centos7/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/calc-entropy-and-divergence/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/built-in-types-in-python/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.295Z</lastmod>
     
   </url>
   
@@ -191,28 +191,14 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/List-Files-and-Directory-Tree-Structure-in-Python/</loc>
+    <loc>http://xianglee.top/Use-Homebrew-to-Install-both-Python-2-and-3-on-Mac/</loc>
     
-    <lastmod>2019-08-01T14:05:38.287Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/Sort-a-Special-Array/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.287Z</lastmod>
+    <lastmod>2019-08-01T14:05:38.291Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://xianglee.top/Sports-Meeting/</loc>
-    
-    <lastmod>2019-08-01T14:05:38.287Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xianglee.top/Similar-Strings/</loc>
     
     <lastmod>2019-08-01T14:05:38.287Z</lastmod>
     
@@ -226,6 +212,27 @@
   </url>
   
   <url>
+    <loc>http://xianglee.top/Sort-a-Special-Array/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.287Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/Similar-Strings/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.287Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xianglee.top/List-Files-and-Directory-Tree-Structure-in-Python/</loc>
+    
+    <lastmod>2019-08-01T14:05:38.287Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xianglee.top/Generate-Verification-Code-in-Python/</loc>
     
     <lastmod>2019-08-01T14:05:38.287Z</lastmod>
@@ -233,7 +240,7 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/Bitmap/</loc>
+    <loc>http://xianglee.top/187/</loc>
     
     <lastmod>2019-08-01T14:05:38.283Z</lastmod>
     
@@ -254,14 +261,14 @@
   </url>
   
   <url>
-    <loc>http://xianglee.top/4-Ways-of-Fibonacci-in-Python/</loc>
+    <loc>http://xianglee.top/Bitmap/</loc>
     
     <lastmod>2019-08-01T14:05:38.283Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xianglee.top/187/</loc>
+    <loc>http://xianglee.top/4-Ways-of-Fibonacci-in-Python/</loc>
     
     <lastmod>2019-08-01T14:05:38.283Z</lastmod>
     
