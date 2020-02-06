@@ -79,19 +79,17 @@
 
 
 
-<meta name="description" content="12345678910111213141516171819202122232425262728293031// Coundin云英 面试#include &amp;lt;stdio.h&amp;gt;typedef struct&amp;#123;    char c;    int i;&amp;#125;T_FOO;typedef struct&amp;#123;    int i;    char c;&amp;#125;U_FOO;in">
+<meta name="description" content="users and their home paths in macOS123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Data Structure Alignment and Padding in C">
-<meta property="og:url" content="http://xianglee.top/Data-Structure-Alignment-and-Padding-in-C/index.html">
+<meta property="og:title" content="awk">
+<meta property="og:url" content="http://xianglee.top/awk/index.html">
 <meta property="og:site_name" content="lixiang">
-<meta property="og:description" content="12345678910111213141516171819202122232425262728293031// Coundin云英 面试#include &amp;lt;stdio.h&amp;gt;typedef struct&amp;#123;    char c;    int i;&amp;#125;T_FOO;typedef struct&amp;#123;    int i;    char c;&amp;#125;U_FOO;in">
+<meta property="og:description" content="users and their home paths in macOS123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="http://xianglee.top/Data-Structure-Alignment-and-Padding-in-C/alignment.png">
-<meta property="og:updated_time" content="2019-01-13T10:03:48.516Z">
+<meta property="og:updated_time" content="2020-02-06T13:27:03.025Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Data Structure Alignment and Padding in C">
-<meta name="twitter:description" content="12345678910111213141516171819202122232425262728293031// Coundin云英 面试#include &amp;lt;stdio.h&amp;gt;typedef struct&amp;#123;    char c;    int i;&amp;#125;T_FOO;typedef struct&amp;#123;    int i;    char c;&amp;#125;U_FOO;in">
-<meta name="twitter:image" content="http://xianglee.top/Data-Structure-Alignment-and-Padding-in-C/alignment.png">
+<meta name="twitter:title" content="awk">
+<meta name="twitter:description" content="users and their home paths in macOS123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687">
 
 
 
@@ -121,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://xianglee.top/Data-Structure-Alignment-and-Padding-in-C/">
+  <link rel="canonical" href="http://xianglee.top/awk/">
 
 
 
 
 
-  <title>Data Structure Alignment and Padding in C | lixiang</title>
+  <title>awk | lixiang</title>
   
 
 
@@ -264,7 +262,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://xianglee.top/Data-Structure-Alignment-and-Padding-in-C/">
+    <link itemprop="mainEntityOfPage" href="http://xianglee.top/awk/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="li xiang">
@@ -281,7 +279,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Data Structure Alignment and Padding in C</h1>
+          <h1 class="post-title" itemprop="name headline">awk</h1>
         
 
         <div class="post-meta">
@@ -293,8 +291,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-12-01T18:44:09+08:00">
-                2018-12-01
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-02-06T21:23:58+08:00">
+                2020-02-06
               </time>
             
 
@@ -311,7 +309,7 @@
 
           
           
-             <span id="/Data-Structure-Alignment-and-Padding-in-C/" class="leancloud_visitors" data-flag-title="Data Structure Alignment and Padding in C">
+             <span id="/awk/" class="leancloud_visitors" data-flag-title="awk">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -342,9 +340,8 @@
       
 
       
-        <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Coundin云英 面试</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">char</span> c;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">&#125;T_FOO;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">char</span> c;</span><br><span class="line">&#125;U_FOO;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"sizeof(char) = %ld\n"</span>, <span class="keyword">sizeof</span>(<span class="keyword">char</span>));</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"sizeof(int) = %ld\n"</span>, <span class="keyword">sizeof</span>(<span class="keyword">int</span>));</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"sizeof(long) = %ld\n"</span>, <span class="keyword">sizeof</span>(<span class="keyword">long</span>));</span><br><span class="line">    </span><br><span class="line">    T_FOO a;</span><br><span class="line">    U_FOO b;</span><br><span class="line">    </span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"a.c -&gt; %ld, a.i -&gt; %ld\n"</span>, (<span class="keyword">void</span> *)&amp;a.c - (<span class="keyword">void</span> *)&amp;a, (<span class="keyword">void</span> *)&amp;a.i - (<span class="keyword">void</span> *)&amp;a);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"b.i -&gt; %ld, b.c -&gt; %ld\n"</span>, (<span class="keyword">void</span> *)&amp;b.i - (<span class="keyword">void</span> *)&amp;b, (<span class="keyword">void</span> *)&amp;b.c - (<span class="keyword">void</span> *)&amp;b);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"sizeof(a) = %ld\n"</span>, <span class="keyword">sizeof</span>(a));</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"sizeof(b) = %ld\n"</span>, <span class="keyword">sizeof</span>(b));</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <h1 id="users-and-their-home-paths-in-macOS"><a href="#users-and-their-home-paths-in-macOS" class="headerlink" title="users and their home paths in macOS"></a>users and their home paths in macOS</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br></pre></td><td class="code"><pre><span class="line">$ cat /tmp/user_home</span><br><span class="line">BEGIN &#123;</span><br><span class="line">    <span class="built_in">print</span> <span class="string">"Users and thier corresponding home"</span></span><br><span class="line">    <span class="built_in">print</span> <span class="string">" UserName \t HomePath"</span></span><br><span class="line">    <span class="built_in">print</span> <span class="string">"___________ \t __________"</span></span><br><span class="line">    FS=<span class="string">":"</span></span><br><span class="line">&#125;</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span>( NR&gt; 10)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">print</span> <span class="variable">$1</span> <span class="string">"  \t  "</span> <span class="variable">$6</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">END &#123;</span><br><span class="line">    <span class="built_in">print</span> <span class="string">"The end"</span></span><br><span class="line">&#125;</span><br><span class="line">$ awk -f /tmp/user_home /etc/passwd</span><br><span class="line">Users and thier corresponding home</span><br><span class="line"> UserName 	 HomePath</span><br><span class="line">___________ 	 __________</span><br><span class="line">nobody  	  /var/empty</span><br><span class="line">root  	  /var/root</span><br><span class="line">daemon  	  /var/root</span><br><span class="line">_uucp  	  /var/spool/uucp</span><br><span class="line">_taskgated  	  /var/empty</span><br><span class="line">_networkd  	  /var/networkd</span><br><span class="line">_installassistant  	  /var/empty</span><br><span class="line">_lp  	  /var/spool/cups</span><br><span class="line">_postfix  	  /var/spool/postfix</span><br><span class="line">_scsd  	  /var/empty</span><br><span class="line">_ces  	  /var/empty</span><br><span class="line">_appstore  	  /var/db/appstore</span><br><span class="line">_mcxalr  	  /var/empty</span><br><span class="line">_appleevents  	  /var/empty</span><br><span class="line">_geod  	  /var/db/geod</span><br><span class="line">_devdocs  	  /var/empty</span><br><span class="line">_sandbox  	  /var/empty</span><br><span class="line">_mdnsresponder  	  /var/empty</span><br><span class="line">_ard  	  /var/empty</span><br><span class="line">_www  	  /Library/WebServer</span><br><span class="line">_eppc  	  /var/empty</span><br><span class="line">_cvs  	  /var/empty</span><br><span class="line">_svn  	  /var/empty</span><br><span class="line">_mysql  	  /var/empty</span><br><span class="line">_sshd  	  /var/empty</span><br><span class="line">_qtss  	  /var/empty</span><br><span class="line">_cyrus  	  /var/imap</span><br><span class="line">_mailman  	  /var/empty</span><br><span class="line">_appserver  	  /var/empty</span><br><span class="line">_clamav  	  /var/virusmails</span><br><span class="line">_amavisd  	  /var/virusmails</span><br><span class="line">_jabber  	  /var/empty</span><br><span class="line">_appowner  	  /var/empty</span><br><span class="line">_windowserver  	  /var/empty</span><br><span class="line">_spotlight  	  /var/empty</span><br><span class="line">_tokend  	  /var/empty</span><br><span class="line">_securityagent  	  /var/db/securityagent</span><br><span class="line">_calendar  	  /var/empty</span><br><span class="line">_teamsserver  	  /var/teamsserver</span><br><span class="line">_update_sharing  	  /var/empty</span><br><span class="line">_installer  	  /var/empty</span><br><span class="line">_atsserver  	  /var/empty</span><br><span class="line">_ftp  	  /var/empty</span><br><span class="line">_unknown  	  /var/empty</span><br><span class="line">_softwareupdate  	  /var/db/softwareupdate</span><br><span class="line">_coreaudiod  	  /var/empty</span><br><span class="line">_screensaver  	  /var/empty</span><br><span class="line">_locationd  	  /var/db/locationd</span><br><span class="line">_trustevaluationagent  	  /var/empty</span><br><span class="line">_timezone  	  /var/empty</span><br><span class="line">_lda  	  /var/empty</span><br><span class="line">_cvmsroot  	  /var/empty</span><br><span class="line">_usbmuxd  	  /var/db/lockdown</span><br><span class="line">_dovecot  	  /var/empty</span><br><span class="line">_dpaudio  	  /var/empty</span><br><span class="line">_postgres  	  /var/empty</span><br><span class="line">_krbtgt  	  /var/empty</span><br><span class="line">_kadmin_admin  	  /var/empty</span><br><span class="line">_kadmin_changepw  	  /var/empty</span><br><span class="line">_devicemgr  	  /var/empty</span><br><span class="line">_webauthserver  	  /var/empty</span><br><span class="line">_netbios  	  /var/empty</span><br><span class="line">_warmd  	  /var/empty</span><br><span class="line">_dovenull  	  /var/empty</span><br><span class="line">_netstatistics  	  /var/empty</span><br><span class="line">_avbdeviced  	  /var/empty</span><br><span class="line">_krb_krbtgt  	  /var/empty</span><br><span class="line">_krb_kadmin  	  /var/empty</span><br><span class="line">_krb_changepw  	  /var/empty</span><br><span class="line">_krb_kerberos  	  /var/empty</span><br><span class="line">_krb_anonymous  	  /var/empty</span><br><span class="line">_assetcache  	  /var/empty</span><br><span class="line">_coremediaiod  	  /var/empty</span><br><span class="line">_launchservicesd  	  /var/empty</span><br><span class="line">_iconservices  	  /var/empty</span><br><span class="line">_distnote  	  /var/empty</span><br><span class="line">_nsurlsessiond  	  /var/db/nsurlsessiond</span><br><span class="line">_nsurlstoraged  	  /var/db/nsurlstoraged</span><br><span class="line">_displaypolicyd  	  /var/empty</span><br><span class="line">_astris  	  /var/db/astris</span><br><span class="line">_krbfast  	  /var/empty</span><br><span class="line">_gamecontrollerd  	  /var/empty</span><br><span class="line">_mbsetupuser  	  /var/setup</span><br><span class="line">_ondemand  	  /var/db/ondemand</span><br><span class="line">_xserverdocs  	  /var/empty</span><br><span class="line">_wwwproxy  	  /var/empty</span><br><span class="line">_mobileasset  	  /var/ma</span><br><span class="line">_findmydevice  	  /var/db/findmydevice</span><br><span class="line">_datadetectors  	  /var/db/datadetectors</span><br><span class="line">_captiveagent  	  /var/empty</span><br><span class="line">_ctkd  	  /var/empty</span><br><span class="line">_applepay  	  /var/db/applepay</span><br><span class="line">_hidd  	  /var/db/hidd</span><br><span class="line">_cmiodalassistants  	  /var/db/cmiodalassistants</span><br><span class="line">_analyticsd  	  /var/db/analyticsd</span><br><span class="line">_fpsd  	  /var/db/fpsd</span><br><span class="line">_timed  	  /var/db/timed</span><br><span class="line">_nearbyd  	  /var/db/nearbyd</span><br><span class="line">_reportmemoryexception  	  /var/db/reportmemoryexception</span><br><span class="line">_driverkit  	  /var/empty</span><br><span class="line">The end</span><br></pre></td></tr></table></figure>
 
-<p><img src="alignment.png" alt></p>
 
       
     </div>
@@ -369,8 +366,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/remove-special-substrings-in-a-string/" rel="next" title="Remove Special Substrings in a String">
-                <i class="fa fa-chevron-left"></i> Remove Special Substrings in a String
+              <a href="/shell-script-for-dsm/" rel="next" title="Shell Script for DSM">
+                <i class="fa fa-chevron-left"></i> Shell Script for DSM
               </a>
             
           </div>
@@ -378,10 +375,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/Similar-Strings/" rel="prev" title="Similar Strings">
-                Similar Strings <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -433,8 +426,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -518,6 +520,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#users-and-their-home-paths-in-macOS"><span class="nav-number">1.</span> <span class="nav-text">users and their home paths in macOS</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="替换某文件夹下所有文件中的字符串1grep &quot;John Doe&quot; -rl  ./ | xargs sed -i &quot;s/John Doe/lixiang/g&quot;">
+<meta name="description" content="替换某文件夹下所有文件中的字符串1grep &quot;John Doe&quot; -rl  ./ | xargs sed -i &quot;s/John Doe/lixiang/g&quot;  比较两个文本文件。以前者作为参考，不一致的输出行号1234567891011121314# awk &apos;&amp;#123;if(NR==FNR)&amp;#123;arr[NR]=$0&amp;#125;else&amp;#123;if(arr[FNR]!=$0)&amp;#12">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux Tips">
 <meta property="og:url" content="http://xianglee.top/linux_tips/index.html">
 <meta property="og:site_name" content="lixiang">
-<meta property="og:description" content="替换某文件夹下所有文件中的字符串1grep &quot;John Doe&quot; -rl  ./ | xargs sed -i &quot;s/John Doe/lixiang/g&quot;">
+<meta property="og:description" content="替换某文件夹下所有文件中的字符串1grep &quot;John Doe&quot; -rl  ./ | xargs sed -i &quot;s/John Doe/lixiang/g&quot;  比较两个文本文件。以前者作为参考，不一致的输出行号1234567891011121314# awk &apos;&amp;#123;if(NR==FNR)&amp;#123;arr[NR]=$0&amp;#125;else&amp;#123;if(arr[FNR]!=$0)&amp;#12">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-08-01T14:05:38.299Z">
+<meta property="og:updated_time" content="2020-02-06T12:42:41.278Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux Tips">
-<meta name="twitter:description" content="替换某文件夹下所有文件中的字符串1grep &quot;John Doe&quot; -rl  ./ | xargs sed -i &quot;s/John Doe/lixiang/g&quot;">
+<meta name="twitter:description" content="替换某文件夹下所有文件中的字符串1grep &quot;John Doe&quot; -rl  ./ | xargs sed -i &quot;s/John Doe/lixiang/g&quot;  比较两个文本文件。以前者作为参考，不一致的输出行号1234567891011121314# awk &apos;&amp;#123;if(NR==FNR)&amp;#123;arr[NR]=$0&amp;#125;else&amp;#123;if(arr[FNR]!=$0)&amp;#12">
 
 
 
@@ -364,6 +364,11 @@
       
         <h1 id="替换某文件夹下所有文件中的字符串"><a href="#替换某文件夹下所有文件中的字符串" class="headerlink" title="替换某文件夹下所有文件中的字符串"></a>替换某文件夹下所有文件中的字符串</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grep <span class="string">"John Doe"</span> -rl  ./ | xargs sed -i <span class="string">"s/John Doe/lixiang/g"</span></span><br></pre></td></tr></table></figure>
 
+<h1 id="比较两个文本文件。以前者作为参考，不一致的输出行号"><a href="#比较两个文本文件。以前者作为参考，不一致的输出行号" class="headerlink" title="比较两个文本文件。以前者作为参考，不一致的输出行号"></a>比较两个文本文件。以前者作为参考，不一致的输出行号</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># awk '&#123;if(NR==FNR)&#123;arr[NR]=$0&#125;else&#123;if(arr[FNR]!=$0)&#123;print FNR&#125;&#125;&#125;' test test1</span></span><br><span class="line">3 </span><br><span class="line"><span class="comment"># cat test</span></span><br><span class="line">a aa aaa 1</span><br><span class="line">b bb bbb 2</span><br><span class="line">c cc ccc</span><br><span class="line">d dd ddd 4</span><br><span class="line">e ee eee 5</span><br><span class="line"><span class="comment"># cat test1</span></span><br><span class="line">a aa aaa 1</span><br><span class="line">b bb bbb 2</span><br><span class="line">c cc ccc 3</span><br><span class="line">d dd ddd 4</span><br><span class="line">e ee eee 5</span><br></pre></td></tr></table></figure>
+
+<h1 id="解析"><a href="#解析" class="headerlink" title="解析"></a>解析</h1><p>当读取第一个文件的时候NR和FNR都是从1开始计数，这时NR==FNR 将行全部内容赋值给数组arr。当读取到第二个文件时，NR!=FNR此时表示已读第二个文件，将arr的内容和$0进行比较如果不相同，则输出行号。</p>
+<h1 id="awk"><a href="#awk" class="headerlink" title="awk"></a>awk</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># echo "hello lixiang" | awk '&#123;$2="parim,"; $3="how"; $4="are"; $5="you?"; print $0&#125;'</span></span><br><span class="line">hello parim, how are you?</span><br></pre></td></tr></table></figure>
+
 
       
     </div>
@@ -475,7 +480,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">36</span>
+                  <span class="site-state-item-count">37</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -552,7 +557,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#替换某文件夹下所有文件中的字符串"><span class="nav-number">1.</span> <span class="nav-text">替换某文件夹下所有文件中的字符串</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#替换某文件夹下所有文件中的字符串"><span class="nav-number">1.</span> <span class="nav-text">替换某文件夹下所有文件中的字符串</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#比较两个文本文件。以前者作为参考，不一致的输出行号"><span class="nav-number">2.</span> <span class="nav-text">比较两个文本文件。以前者作为参考，不一致的输出行号</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#解析"><span class="nav-number">3.</span> <span class="nav-text">解析</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#awk"><span class="nav-number">4.</span> <span class="nav-text">awk</span></a></li></ol></div>
             
 
           </div>
@@ -574,7 +579,7 @@
       <div class="footer-inner">
         <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
-<div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
