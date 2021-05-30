@@ -27,6 +27,8 @@ https://www.bilibili.com/video/BV1Kt4y1D75z
 感想：
 学完发音后，全部听全英文的PodCast。中国老师做的音频有时掺杂中文太多，浪费时间。而且，有时不够地道。
 
+吐槽：
+Youtube上印度人英语口音咖喱味真重，听着上头。
 
 当时考研
 《喜马拉雅》APP听了一些。
@@ -60,6 +62,10 @@ Verbal Advantage
 各种Crash Course
 
 
+精读党
+《小王子》
+《老人与海》
+
 美剧
 《Young Sheldon》
 《硅谷》
@@ -70,14 +76,27 @@ Verbal Advantage
 
 英剧
 《唐顿庄园》
+《傲慢与偏见》
 
 电影
-《哈利波特》
-《不可儿戏》
+中文名 | 英文名 
+---- | ---- 
+《哈利波特》|
+《不可儿戏》|
+《遇见你之前》|《Me Before You》
+《提夫尼的早餐》|
+《千与千寻》|
+《贫民窟的百万富翁》|《Slumdog Millionaire》
+《乱世佳人》|《Gone with the Wind》
+《小王子》|
+《阿波罗13号》| 《apollo 13》
+《海底总动员》|《Finding Nemo》
+《达芬奇密码》| 《The DaVinci Code》
+《百万美元宝贝》| 《Million Dollar Baby》
+《一条狗的使命》| 《a dog's purpose》
 
 
 
-吐槽：
-Youtube上印度人英语口音咖喱味真重，听着上头。
+
 
 
