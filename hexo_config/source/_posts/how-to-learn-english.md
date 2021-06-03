@@ -38,7 +38,7 @@ Monster老师，学了各种连读略读。
 
 
 《每日英语听力》APP，安卓、iPadOS、IOS、macOS均有客户端。
-《欧路词典》APP
+《欧路词典》APP，看英文解释。中文翻译很多时候不够地道，不够确切，意思不到位。需要看英英词典才行。
 《人人视频》APP
 
 
@@ -79,21 +79,23 @@ Verbal Advantage
 《傲慢与偏见》
 
 电影
-中文名 | 英文名 
----- | ---- 
-《哈利波特》|
-《不可儿戏》|
-《遇见你之前》|《Me Before You》
-《提夫尼的早餐》|
-《千与千寻》|
-《贫民窟的百万富翁》|《Slumdog Millionaire》
-《乱世佳人》|《Gone with the Wind》
-《小王子》|
-《阿波罗13号》| 《apollo 13》
-《海底总动员》|《Finding Nemo》
-《达芬奇密码》| 《The DaVinci Code》
-《百万美元宝贝》| 《Million Dollar Baby》
-《一条狗的使命》| 《a dog's purpose》
+
+|中文名 | 英文名 |
+|---- | ----   |
+|《哈利波特》|                               |
+|《不可儿戏》|                               |
+|《遇见你之前》|《Me Before You》              |
+|《提夫尼的早餐》|                             |
+|《千与千寻》|                                |
+|《贫民窟的百万富翁》|《Slumdog Millionaire》   |
+|《乱世佳人》|《Gone with the Wind》           |
+|《小王子》|                                  |
+|《阿波罗13号》| 《apollo 13》                 |
+|《海底总动员》|《Finding Nemo》               |
+|《达芬奇密码》| 《The DaVinci Code》           |
+|《百万美元宝贝》| 《Million Dollar Baby》      |
+|《一条狗的使命》| 《a dog's purpose》          |
+
 
 
 
