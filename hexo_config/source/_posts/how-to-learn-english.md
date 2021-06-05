@@ -40,6 +40,7 @@ Monster老师，学了各种连读略读。
 《每日英语听力》APP，安卓、iPadOS、IOS、macOS均有客户端。
 《欧路词典》APP，看英文解释。中文翻译很多时候不够地道，不够确切，意思不到位。需要看英英词典才行。
 《人人视频》APP
+《百词斩》APP
 
 
 清单：
@@ -83,6 +84,7 @@ Verbal Advantage
 |中文名 | 英文名 |
 |---- | ----   |
 |《哈利波特》|                               |
+|《当幸福来敲门》|                               |
 |《不可儿戏》|                               |
 |《遇见你之前》|《Me Before You》              |
 |《提夫尼的早餐》|                             |
@@ -95,6 +97,7 @@ Verbal Advantage
 |《达芬奇密码》| 《The DaVinci Code》           |
 |《百万美元宝贝》| 《Million Dollar Baby》      |
 |《一条狗的使命》| 《a dog's purpose》          |
+|《幸福终点站》|           |
 
 
 
