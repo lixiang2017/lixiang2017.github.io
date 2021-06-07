@@ -60,6 +60,7 @@ Albert双语趣说英闻
 名人73个快问快答
 Verbal Advantage
 刘毅突破词汇22000
+小屁孩的尝试/Hihoboys
 各种Crash Course
 
 
@@ -76,8 +77,11 @@ Verbal Advantage
 《名姝》
 
 英剧
-《唐顿庄园》
-《傲慢与偏见》
+
+|《唐顿庄园》 |       |
+|《傲慢与偏见》|      |
+|《锦绣佳人》|《Wives and Daughters》|
+
 
 电影
 
@@ -98,6 +102,8 @@ Verbal Advantage
 |《百万美元宝贝》| 《Million Dollar Baby》      |
 |《一条狗的使命》| 《a dog's purpose》          |
 |《幸福终点站》|           |
+|《罗马假日》|《Roman Holiday》|
+
 
 
 
