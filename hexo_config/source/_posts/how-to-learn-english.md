@@ -68,19 +68,20 @@ Verbal Advantage
 《小王子》
 《老人与海》
 
-美剧
-《Young Sheldon》
-《硅谷》
-《实习医生格蕾》
-《爱死亡与机器人》
-《Sex Education》
-《名姝》
+美剧/英剧
 
-英剧
-
+|中文名 | 英文名 |
+|---- | ----   |
+|《少年谢尔顿》|《Young Sheldon》|
+|《硅谷》  |                    |
+|《实习医生格蕾》|                |
+|《爱死亡与机器人》  | 《Love Death and Robots》  |
+| 《性教育》 | 《Sex Education》|
+|《名姝》  |                  |
 |《唐顿庄园》 |       |
 |《傲慢与偏见》|      |
 |《锦绣佳人》|《Wives and Daughters》|
+|《火枪手》| 《The Musketeers》 |
 
 
 电影
