@@ -5,7 +5,8 @@
 
 git_update() {
 	git fetch --all
-	git merge origin master
+	#git merge origin master
+	git merge origin hexo_bachelor
 	git add .
 	git commit -m "explore 2021"
 	git push
