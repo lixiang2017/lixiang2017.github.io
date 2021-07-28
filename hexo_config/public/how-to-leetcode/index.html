@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="lixiang">
 <meta property="og:description" content="网站https://leetcode.com/https://leetcode-cn.com/https://binarysearch.com/当然国内外还有非常多类似的OJ网站。选择一两个即可，不必贪多。 感想（2021.05.30）：从2020.08开始leetcode.com，从2021.01开始leetcode-cn.com，中间基本没怎么停过，偶尔会有断签。目前国内200+，国外400+">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2021-07-26T16:06:48.980Z">
+<meta property="og:updated_time" content="2021-07-28T02:30:52.326Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="how-to-leetcode">
 <meta name="twitter:description" content="网站https://leetcode.com/https://leetcode-cn.com/https://binarysearch.com/当然国内外还有非常多类似的OJ网站。选择一两个即可，不必贪多。 感想（2021.05.30）：从2020.08开始leetcode.com，从2021.01开始leetcode-cn.com，中间基本没怎么停过，偶尔会有断签。目前国内200+，国外400+">
@@ -348,7 +348,14 @@
 <h4 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h4><p>0、要不要看别人的答案？看别人的答案是不是就很愧疚，就感觉自己很傻很蠢，不如别人？<br>当然不是！！！在自己思考之后，还是没有很好的思路，看别人的题解是快速学习并提升自己的方式。别人的题解往往有很多思路，不同解法。这对自己的提升是有百利而无一害的。<br>历史上非常多优秀的算法，都是这些名人花费好长时间才想到的，甚至需要很多灵感和天马行空的想象。<br>如果自己没见过的算法，自己空想一辈子可能也想不出来。请站在巨人的肩膀上。<br>看了很多优秀的算法，可能就会有自己的想法。那就尽情开始畅想吧。<br>0.1、自己思考多长时间去看别人的答案呢？<br>针对不同的题，可以有不同的时间。简单题，直来直往的，五分钟/十分钟/二十分钟还没有自己想法，直接去看吧，别浪费自己的青春。<br>Medium/Hard，自己完全没思路的，直接去看吧。有思路的，自己写写调试看看。 或者想个半天/一天也是ok的。<br>1、测试驱动开发。编写测试用例，尽量多地想各种edge/corner cases。<br>2、画图。画画图就有思路了，很快就知道怎么写了。在草稿纸上随便画。<br>3、刷透一题。一题多解。掌握不同解法。国内外两个网站的题解，交叉着看，相互补充，同时熟悉相应术语中英文如何翻译。<br>4、多语言。算法思想都是一样的。目的是熟悉不同编程语言的库和写法。同时避免只有某一种语言的解法，自己看不懂。<br>5、优化。分析每种解法的时空复杂度（时间复杂度和空间复杂度）。能否降低时间复杂度？空间换时间。</p>
 <p>没思路的时候改怎么办？<br>a、尝试暴力。<br>b、把知道的算法都罗列一遍，对于每一种，想一下行不行？二分/DP/DFS/BFS/Two Pointers/Sliding Window/并查集/…<br>有时候有些题往往需要想象力和创造力。</p>
 <p>贪心思想（Greedy）：<br>其实写程序的时候不知不觉就用了贪心思想。比如，尽可能较少步数到达最远方。尽可能剪枝优化，减少搜索空间。尽可能降低时空复杂度。</p>
-<p>分治法。好像上面这些算法已经有意无意用到了，而自己没有意识到。</p>
+<p>各种DP:<br>线性DP；区间DP；背包DP；树形DP；状态压缩DP；数位DP；计数型DP；递推型DP；概率型DP；博弈型DP；记忆化搜索；<br>ref [<a href="https://zhuanlan.zhihu.com/p/126546914]" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/126546914]</a></p>
+<p>计算机的优势：有固定模式的重复性计算。这对于DP的这种状态转移和DFS这种递归的算法是极其方便的。<br>两大类：</p>
+<ol>
+<li>递推/Iteration/DP</li>
+<li>递归/Recursion/Backtracking(回溯)/+记忆化memo<br>两者往往可以相互转化。</li>
+</ol>
+<h4 id="经验"><a href="#经验" class="headerlink" title="经验"></a>经验</h4><p>有些题目一看到，就会意识到用哪种算法。<br>比如，树 =&gt; DFS/BFS；<br>字符串的括号匹配 =&gt; Stack;<br>有序数组 =&gt; 二分；<br>最少的步数到达目标状态 =&gt; BFS(deque);<br>分组/岛屿个数 =&gt; 并查集；<br>求和 + 区间范围 =&gt; 前缀和；<br>二维数组 =&gt; DFS/BFS;<br>链表题，往往需要切割再重组节点之间的关系，要处理好指针的移动。同时也有别的技巧，比如快慢双指针等。</p>
+<h4 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h4><p>分治法。很多递归的算法已经用到了分治的思想。<br>线段树<br>树状数组<br>模拟退火算法<br>遗传算法<br>博弈论</p>
 <h4 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h4><p>博弈论<br>A-star<br>线段树<br>树状数组<br>前缀字典/字典树/Trie<br>双向BFS</p>
 <h4 id="重复的力量"><a href="#重复的力量" class="headerlink" title="重复的力量"></a>重复的力量</h4><p>第一次懵懵懂懂（卧槽！这么牛逼的想法怎么想到的）<br>第二次稍微理解<br>第三次轻车熟路</p>
 <h4 id="策略"><a href="#策略" class="headerlink" title="策略"></a>策略</h4><p>1、很多题目都需要再次复习温习，去掌握各种不同优秀的解法和暴力的解法。<br>2、手动写各种case，手动写下算法迭代过程中的每一步中间结果，可更好地理解该算法。</p>
@@ -540,7 +547,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#网站"><span class="nav-number">1.</span> <span class="nav-text">网站</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#感想（2021-05-30）："><span class="nav-number">2.</span> <span class="nav-text">感想（2021.05.30）：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#刷题的好处："><span class="nav-number">3.</span> <span class="nav-text">刷题的好处：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#用力扣刷题的好处："><span class="nav-number">4.</span> <span class="nav-text">用力扣刷题的好处：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#方法："><span class="nav-number">5.</span> <span class="nav-text">方法：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#进阶"><span class="nav-number">6.</span> <span class="nav-text">进阶</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#重复的力量"><span class="nav-number">7.</span> <span class="nav-text">重复的力量</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#策略"><span class="nav-number">8.</span> <span class="nav-text">策略</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#网站"><span class="nav-number">1.</span> <span class="nav-text">网站</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#感想（2021-05-30）："><span class="nav-number">2.</span> <span class="nav-text">感想（2021.05.30）：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#刷题的好处："><span class="nav-number">3.</span> <span class="nav-text">刷题的好处：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#用力扣刷题的好处："><span class="nav-number">4.</span> <span class="nav-text">用力扣刷题的好处：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#方法："><span class="nav-number">5.</span> <span class="nav-text">方法：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#经验"><span class="nav-number">6.</span> <span class="nav-text">经验</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#TODO"><span class="nav-number">7.</span> <span class="nav-text">TODO</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#进阶"><span class="nav-number">8.</span> <span class="nav-text">进阶</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#重复的力量"><span class="nav-number">9.</span> <span class="nav-text">重复的力量</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#策略"><span class="nav-number">10.</span> <span class="nav-text">策略</span></a></li></ol></div>
             
 
           </div>
