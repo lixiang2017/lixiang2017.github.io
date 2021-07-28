@@ -40,6 +40,7 @@ Monster老师，学了各种连读略读。
 《每日英语听力》APP，安卓、iPadOS、IOS、macOS均有客户端。
 《欧路词典》APP，看英文解释。中文翻译很多时候不够地道，不够确切，意思不到位。需要看英英词典才行。
 《人人视频》APP
+《百词斩》APP
 
 
 清单：
@@ -59,6 +60,8 @@ Albert双语趣说英闻
 名人73个快问快答
 Verbal Advantage
 刘毅突破词汇22000
+小屁孩的尝试/Hihoboys
+生活中的科学/Top Think
 各种Crash Course
 
 
@@ -66,23 +69,28 @@ Verbal Advantage
 《小王子》
 《老人与海》
 
-美剧
-《Young Sheldon》
-《硅谷》
-《实习医生格蕾》
-《爱死亡与机器人》
-《Sex Education》
-《名姝》
+美剧/英剧
 
-英剧
-《唐顿庄园》
-《傲慢与偏见》
+|中文名 | 英文名 |
+|---- | ----   |
+|《少年谢尔顿》|《Young Sheldon》|
+|《硅谷》  |                    |
+|《实习医生格蕾》|                |
+|《爱死亡与机器人》  | 《Love Death and Robots》  |
+| 《性教育》 | 《Sex Education》|
+|《名姝》  |                  |
+|《唐顿庄园》 |       |
+|《傲慢与偏见》|      |
+|《锦绣佳人》|《Wives and Daughters》|
+|《火枪手》| 《The Musketeers》 |
+
 
 电影
 
 |中文名 | 英文名 |
 |---- | ----   |
 |《哈利波特》|                               |
+|《当幸福来敲门》|                               |
 |《不可儿戏》|                               |
 |《遇见你之前》|《Me Before You》              |
 |《提夫尼的早餐》|                             |
@@ -95,6 +103,9 @@ Verbal Advantage
 |《达芬奇密码》| 《The DaVinci Code》           |
 |《百万美元宝贝》| 《Million Dollar Baby》      |
 |《一条狗的使命》| 《a dog's purpose》          |
+|《幸福终点站》|           |
+|《罗马假日》|《Roman Holiday》|
+
 
 
 
