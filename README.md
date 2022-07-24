@@ -17,3 +17,6 @@ under folder `hexo_config`, run the script
 ```bash
 bash deploy.sh
 ```
+
+# fix bug about git push
+https://flaviocopes.com/setup-github-credentials-macos/
